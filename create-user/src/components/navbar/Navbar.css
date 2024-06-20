@@ -1,0 +1,25 @@
+.navbar {
+    padding: 2rem 0;
+    border-bottom: 1px solid #B0DAFF;
+    margin-bottom: 5rem;
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.navbar-container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    margin: 0;
+    color: #19376D;
+    cursor: pointer;
+    user-select: none;
+}
+
+.navbar-counter {
+    margin: 0;
+}

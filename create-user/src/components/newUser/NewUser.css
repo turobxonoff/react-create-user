@@ -1,0 +1,62 @@
+.overlay {
+    backdrop-filter: blur(3px);
+    position: flex;
+    background-color: rgba(51, 51, 51, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 100;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.modal input {
+    font-family: inherit;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.modal label span {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.gender  {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gender label {
+    display: flex;
+    align-items:center;
+}
+
+.modal-btn {
+    background-color: #F45050;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    align-items: center;
+    margin: 2rem auto;
+}
